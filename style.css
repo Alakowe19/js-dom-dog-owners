@@ -73,7 +73,7 @@ img {
 
 /* Components */
 
-.dogs-list__button {
+.dogs-list__items {
   display: grid;
   place-content: center;
   width: 100%;
@@ -89,6 +89,14 @@ img {
   cursor: pointer;
 
   transition: all 300ms;
+  
+}
+li {
+  text-align: center;
+}
+
+.dogs-list__items:hover {
+  background-color: var(--green);
 }
 
 .dogs-list__button:hover {
@@ -182,4 +190,8 @@ textarea {
   resize: none;
   font: inherit;
   padding: 0.5rem;
+}
+
+.main-card__info {
+  background-color: ;
 }
